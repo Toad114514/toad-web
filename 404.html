@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+   <head>
+    <title>Toads Tool Web</title>
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/foundation/5.5.3/css/foundation.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+       <script>
+// Initialize Foundation JS For Functionality
+$(document).ready(function() {
+    $(document).foundation();
+})
+   </script>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+       <li class="name">
+       <img src="icon.png" width="40" height="40"/>
+       </li>
+       <li class="toggle-topbar fa fa-navicon" style="color:white;font-size:24px;padding:12px;"><a href="#"/></li>
+     </ul>
+     <section class="top-bar-section">
+       <ul class="left">
+         <li class="active"><a href="#">主页</a></li>
+         <li><a href="about.htm">关于我们</a></li>
+         <li><a href="shop.htm">商店</a></li>
+         <li><a href="zblog">Blog</a></li>
+         <li><a href="new.htm">更新日志</a></li>
+         <li><a href="state.htm">状态</a></li>
+       </ul>
+     </section>
+   </nav>
+   
+   <div style="padding:20px;">
+     <h1>404(悲</h1>
+     <p>你要的页面并没有在 Toads Tool 上找到。</p></br>
+     <p>现在你要做什么？</p></br>
+     <a href="#" onclick="window.histrlory.back()">返回上一级页面</a></br>
+     <a href="http://192.168.10.14:8001/">回到 Toads Tool 主页</a>
+   </div>
+   </body>
+  </html>
